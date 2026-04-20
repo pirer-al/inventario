@@ -19,8 +19,8 @@ public class InventarioApplication {
 	CommandLineRunner initData(ProductoRepository repository) {
 		return args -> {
 			repository.save(new Producto(null, "Laptop Dell", "i7 16RAM", "Electrónica", 5, 15500.50, null));
-			repository.save(new Producto(null, "Laptop Dell", "i7 16RAM", "Electrónica", 5, 15500.50, null));
-			repository.save(new Producto(null, "Laptop Dell", "i7 16RAM", "Electrónica", 5, 15500.50, null));
+			repository.save(new Producto(null, "Laptop Dell", "i5 16RAM", "Electrónica", 5, 12000.00, null));
+			repository.save(new Producto(null, "Laptop Dell", "i3 8RAM", "Electrónica", 5, 8000.00, null));
 		};
 	}
 

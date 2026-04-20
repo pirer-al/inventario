@@ -13,7 +13,7 @@ Gradle, Postgres y dockerizada
 ## Cómo ejecutar localmente
 ```bash
 # 1. Clonar el repositorio
-git clone ?????
+git clone https://github.com/pirer-al/inventario.git
 
 # 2. Entrar a la carpeta inventario
 cd inventario
