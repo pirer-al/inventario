@@ -17,7 +17,7 @@ git clone https://github.com/pirer-al/inventario.git
 
 # 2. Entrar a la carpeta inventario
 cd inventario
-
+    
 # 3. Ejecutar con Docker Compose
 docker compose up --build
 ```
